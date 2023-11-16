@@ -1,0 +1,185 @@
+.buscadorBody{
+    display: flex;
+    gap: 20px;
+}
+
+.buscadorForm{
+    flex-grow: .8;
+    height: fit-content;
+}
+
+.cardsSection{
+    flex-grow:10;
+}
+
+.cardsAlquileresContainer{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, .3fr));
+    grid-column-gap: 15px;
+    grid-row-gap: 35px;
+    padding-right: 35px;
+    justify-content: center;
+}
+
+.cardAlquiler{
+    height: 250px;
+    border-radius: 5%;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.cardAlquiler img{
+    width: 100%;
+    height: 65%;
+}
+
+.cardAlquiler .imagenBackground{
+    width: 100%;
+    height: 65%;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.cardTextContainer{
+    padding-left: 8px;
+}
+
+.cardTextCiudad{
+    margin-top: 5px;
+    margin-bottom: 0px;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.cardTextProvincia{
+    margin: 0px;
+    margin-top: 2px;
+    color: rgb(65, 65, 65);
+}
+
+.cardTextfechas{
+    margin-top: 7px;
+    margin-bottom: 0px;
+    color: rgb(65, 65, 65);
+}
+
+.cardTextPrecio{
+    margin-top:7px;
+    margin-bottom: 2px;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+
+
+.buscadorForm{
+    margin-left: 10px;
+    padding: 10px 15px 20px 15px;
+    background-color: rgb(182, 182, 182);
+    font-size: 17px;
+}
+
+.buscadorForm p{
+    margin: 13px 0px;
+}
+
+.buscadorForm form select{
+    margin-left: 13px;
+    width: 170px;
+    height: 25px;
+}
+
+.buscadorForm form input[type='checkbox']{
+    margin-left: 13px;
+}
+
+.buscadorForm form input[type='text']{
+    margin-left: 13px;
+    width: 200px;
+    height: 25px;
+}
+
+.buscadorForm form input[type='button']{
+    display: block;
+    width: 70%;
+    height: 45px;
+    margin: 0px auto;
+    margin-top: 20px;
+    background-color: #99303C;
+    border-radius: 5px;
+    border: 0px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.buscadorForm form input[type='button']:hover{
+    background-color: #a7515b;
+}
+
+.inputTitle{
+    font-weight: bold;
+}
+
+.paginacionContainer{
+    text-align: center;
+    margin: 30px 0px;
+}
+
+
+.paginacionContainer .page-number{
+    color: #99303C;
+    margin: 0px 17px;
+    font-size: 19px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+
+.paginacionContainer .paginaSeleccionada{
+    text-decoration: underline;
+}
+
+
+#btnBuscar{
+    display: block;
+    width: 120px;
+    height: 45px;
+    margin: 0 auto;
+    margin-top: 15px;
+    background-color: #99303C;
+    border: 0px;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#btnBuscar:hover{
+    background-color: #a7515b;
+}
+
+
+
+.verif{
+    position: relative;
+    bottom: 8px;
+    right: 4px;
+    margin: 0px;
+    float: right;
+}
+
+.verif i{
+    font-size: 18px;
+    color: rgb(168, 143, 0);
+} 
+
+.buscadorTitle{
+    margin-left: 22px;
+}
+
+.buscadorTitle h2{
+    font-size: 28px;
+}

@@ -1,0 +1,38 @@
+<div id="pagination">
+  <button id="prevPage">Anterior</button>
+  <div id="pageNumbers"></div>
+  <button id="nextPage">Siguiente</button>
+</div>
+
+
+
+
+const itemsPerPage = 15; // Cantidad de elementos por página
+const totalItems = /* Obten el total de elementos desde la base de datos */;
+const totalPages = Math.ceil(totalItems / itemsPerPage);
+
+const pagination = document.getElementById("pagination");
+const pageNumbers = document.getElementById("pageNumbers");
+
+for (let i = 1; i <= totalPages; i++) {
+  const pageNumber = document.createElement("span");
+  pageNumber.textContent = i;
+  pageNumber.classList.add("page-number");
+  pageNumber.addEventListener("click", () => {
+    // Aquí debes manejar la lógica para mostrar la página correspondiente
+    // Puedes utilizar un evento para comunicar la página seleccionada al backend
+  });
+  pageNumbers.appendChild(pageNumber);
+}
+
+// También puedes agregar lógica para ir a la página anterior y siguiente
+const prevPageButton = document.getElementById("prevPage");
+const nextPageButton = document.getElementById("nextPage");
+
+prevPageButton.addEventListener("click", () => {
+  // Aquí debes manejar la lógica para ir a la página anterior
+});
+
+nextPageButton.addEventListener("click", () => {
+  // Aquí debes manejar la lógica para ir a la página siguiente
+});

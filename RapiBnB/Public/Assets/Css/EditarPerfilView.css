@@ -1,0 +1,114 @@
+.perfilSection{
+    display: flex;
+    margin-top: 60px;
+    justify-content: center;
+}
+
+
+.perfilSection .perfilContainer{
+    width: 800px;
+    background-color: #f6f5f5;
+    border: 1px solid lightgray;
+    padding-top: 10px;
+}
+
+
+.perfilContainer .TitleContainer{
+    background-color: white;
+    padding-left: 15px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid lightgray;
+    
+}
+
+.perfilContainer .TitleContainer h2{
+    margin: 0px;
+    border-left: 5px solid #99303C;
+    padding-left: 10px;
+    font-size: 30px;
+}
+
+.perfilContainer .datosContainer{
+    display: flex;
+}
+
+.datosContainer .izquierda{
+    margin-left: 50px;
+    margin-right: 70px;
+}
+
+.datosContainer .DataArticle h3{
+    font-size: 22px;
+    text-decoration: underline;
+}
+
+.datosContainer .DataArticle img{
+    width: 190px;
+}
+
+.botonEnviar{
+    margin-top: 40px;
+    margin-right: 30px;
+    margin-bottom: 20px;
+    float: right;
+    background-color: #99303C;
+    color: white;
+    font-size: 16px;
+    width: 130px;
+    height: 50px;
+    border: 0px;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.botonEnviar:hover{
+    background-color: #a7515b;
+}
+
+.boton{
+    margin-top: 40px;
+    display: flex;
+    justify-content: end;
+     padding-right: 40px;
+     padding-bottom: 25px;
+}
+
+
+.boton .enlaceEditarDatos{
+    text-decoration: none;
+    color: white;
+}
+
+
+.boton .botonEditarDatos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 130px;
+    height: 50px;
+    background-color: #99303C;
+    border-radius: 7px;
+}
+
+.boton .botonEditarDatos:hover{
+    background-color: #a7515b;
+}
+
+.iconoEditar{
+    color: black;
+    padding: 4px;
+    margin-left: 5px;
+    border: 3px solid black;
+    border-radius: 40px;
+    cursor: pointer;
+}
+
+.Inputs{
+   display: none;
+}
+
+#formError{
+    font-size: 19px;
+    text-align: center;
+}
+

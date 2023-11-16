@@ -1,0 +1,268 @@
+.ofertasSection{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.ofertasSection .ofertasContainer{
+    width: 950px;
+    background-color: #f6f5f5;
+    border: 1px solid lightgrey;
+    padding-bottom: 40px;
+
+}
+
+.ofertasContainer .ofertasTitle{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    border-top: 5px solid #99303C;
+    border-bottom:1px solid lightgrey;
+    background-color: white;
+}
+
+
+.ofertasTitle h2{
+    margin: 0px;
+    padding-left: 7px;
+    border-left: 5px solid #99303C;
+    font-size: 27px;
+}
+
+.titleAlquiler{
+    margin-top: 15px;
+    padding-left: 25px;
+}
+
+.titleAlquiler h3{
+    font-size: 24px;
+    margin: 0px;
+}
+
+.ofertasBodyContainer{
+    box-sizing: border-box;
+    width: 100%;
+    margin-top: 25px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.ofertasBodyContainer .ofertaAlquiler{
+    display: flex;
+    align-items: center;
+    height: 60px;
+    border: 1px solid lightgrey;
+}
+
+
+
+.ofertaAlquiler .tituloContainer{
+    box-sizing: border-box;
+    width: 20%;
+    overflow: auto;
+    padding-left: 5px;
+}
+
+.ofertaAlquiler .ciudadContainer{
+    box-sizing: border-box;
+    width: 20%;
+    overflow: auto;
+    padding-left: 5px;
+}
+
+.ofertaAlquiler .fechaIniContainer{
+    box-sizing: border-box;
+    width: 20%;
+    overflow: auto;
+    padding-left: 5px;
+}
+
+.ofertaAlquiler .fechaFinContainer{
+    box-sizing: border-box;
+    width: 20%;
+    overflow: auto;
+    padding-left: 5px;
+}
+
+.ofertaAlquiler .estadoContainer{
+    box-sizing: border-box;
+    width: 20%;
+    overflow: auto;
+    padding-left: 5px;
+}
+
+
+.ofertaAlquiler .btnContainer{
+    box-sizing: border-box;
+    width: 20%;
+    overflow: auto;
+    text-align: center;
+}
+
+
+.btnReseñar{
+    width: 80px;
+    height: 40px;
+    background-color: #2F7799;
+    cursor: pointer;
+    border: 0px;
+    border-radius: 5px;
+    color:white;
+    font-size: 16px;
+}
+
+.btnReseñar:hover{
+    background-color: #408db1;
+}
+
+
+
+.modalResenia{
+    display: none;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    background-color: rgba(0,0,0,0.4);
+}
+
+.exitModal{
+    font-size: 28px;
+    cursor: pointer;
+    float: right;
+    margin-right: 12px;
+    margin-top: 10px;
+    color: rgb(173, 15, 15);
+}
+
+.bodyModalResenia{
+    box-sizing: border-box;
+    width: 550px;
+    height: 340px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    border-radius: 5px;
+}
+
+#reseniaIdOferta{
+    display: none;
+}
+
+.bodyModalResenia p{
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+.puntuacionContainer{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+}
+
+.bodyModalResenia form input[type="radio"]{
+    display: none;
+}
+
+.bodyModalResenia form .estrella{
+    cursor: pointer;
+    font-size: 24px;
+}
+
+.estrella .bi-star-fill:before{
+    margin-left: 20px;
+    color: #272727; /* color de las estrellas no seleccionadas */
+  }
+
+  input[type="radio"]:checked ~ .estrella .bi-star-fill:before {
+    color: #ffcc00; /* color de las estrellas seleccionadas */
+  }
+
+  #descripcionResenia{
+    display: block;
+    margin: 0 auto;
+    resize: none;
+
+  }
+
+  #btnEnviarResenia{
+    display: block;
+    width: 90px;
+    height: 40px;
+    margin: 0px auto;
+    margin-top: 18px;
+    background-color: #2F7799;
+    border: 0px;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+  }
+
+
+  #btnEnviarResenia:hover{
+    background-color: #408db1;
+  }
+
+#pErrorModal{
+    text-align: center;
+    font-size: 17px;
+    font-weight: normal;
+}
+.btnAceptar{
+    display: inline-block;
+    width: 70px;
+    height: 40px;
+    background-color: #2F7799;
+    border: 0px;
+    border-radius: 5px;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.btnAceptar:hover{
+    background-color: #408db1;
+}
+
+.btnRechazar{
+    display: inline-block;
+    width: 70px;
+    height: 40px;
+    background-color: #99303C;
+    border: 0px;
+    border-radius: 5px;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+
+}
+
+.btnRechazar:hover{
+    background-color: #a7515b;
+}
+
+.bordeTabla{
+    height: 100%;
+    width: 1px;
+    background-color: lightgrey;
+}
+
+ 
+.ofertaAlquilerTitle{
+    background-color: #cacaca;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+.ofertaAlquilerTitle > div{
+    padding-left: 0px !important; 
+}

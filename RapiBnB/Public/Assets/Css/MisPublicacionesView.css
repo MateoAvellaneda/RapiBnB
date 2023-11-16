@@ -1,0 +1,221 @@
+.publicacionesSection{
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+}
+
+
+.publicacionesSection .publicacionesContainer{
+    width: 950px;
+    padding-bottom: 40px;
+    background-color: #f6f5f5;
+    border: 1px solid lightgrey;
+}
+
+.publicacionesContainer .publicacionesTitle{
+    border-top: 5px solid #99303C;
+    border-bottom:1px solid lightgrey;
+    background-color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+}
+
+.publicacionesTitle h2{
+    margin: 0px;
+    padding-left: 7px;
+    border-left: 4px solid #99303C;
+    font-size: 27px;
+}
+
+.publicacionesBody{
+    box-sizing: border-box;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.publicacionesBody .publicacionesActivasContainer h3{
+    font-size: 22px;
+    text-decoration: underline;
+}
+
+.publicacionesActivasContainer .publicacionActiva{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 80px;
+    margin-bottom: 5px;
+    background-color: #c1d5df;
+    border: 1px solid grey;
+}
+
+.publicacionActiva .publicacionImagenContainer{
+    width: 20%;
+}
+
+.publicacionActiva .publicacionTitleContainer{
+    width:  35%;
+}
+
+.publicacionActiva .publicacionBotonesContainer{
+    width: 45%;
+}
+
+.publicacionImagenContainer .publicacionImagen{
+    width: 60px;
+    height: 60px;
+    margin-left: 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.publicacionTitleContainer p{
+    font-size: 18px;
+}
+
+.publicacionBotonesContainer{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.publicacionBotonesContainer .btnVer{
+    height: 40px;
+    width: 60px;
+    border: 0px;
+    background-color: #2F7799;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.publicacionBotonesContainer .btnVer:hover{
+    background-color: #408db1;
+}
+
+.publicacionBotonesContainer .btnOfertas{
+    height: 40px;
+    width: 80px;
+    border: 0px;
+    background-color: #7a7826;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.publicacionBotonesContainer .btnOfertas:hover{
+    background-color: #8d8c39;
+}
+
+.publicacionBotonesContainer .btnDesactivar{
+    height: 40px;
+    width: 100px;
+    border: 0px;
+    background-color: #99303C;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+} 
+
+.publicacionBotonesContainer .btnDesactivar:hover{
+    background-color: #a7515b;
+} 
+
+.publicacionBotonesContainer .btnEliminar{
+    height: 40px;
+    width: 90px;
+    border: 0px;
+    background-color: #99303C;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.publicacionBotonesContainer .btnEliminar:hover{
+    background-color: #a7515b;
+} 
+
+
+.publicacionesBody .publicacionesDesactivadasContainer h3{
+    font-size: 22px;
+    text-decoration: underline;
+}
+
+.publicacionesDesactivadasContainer .publicacionPausada{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 80px;
+    margin-bottom: 5px;
+    background-color: #e4bfc3;
+    border: 1px solid grey;
+}
+
+.publicacionPausada .publicacionImagenContainer{
+    width: 20%;
+}
+
+.publicacionPausada .publicacionTitleContainer{
+    width:  35%;
+}
+
+.publicacionPausada .publicacionBotonesContainer{
+    width: 45%;
+}
+
+
+.publicacionBotonesContainer .btnActivar{
+    height: 40px;
+    width: 90px;
+    border: 0px;
+    background-color: #2F7799;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+} 
+
+.publicacionBotonesContainer .btnActivar:hover{
+    background-color: #408db1;
+} 
+
+.modalError{
+    display: none;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    background-color: rgba(0,0,0,0.4);
+}
+
+.modalError .errorBox{
+    position: fixed;
+    width: 400px;
+    height: 200px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+}
+
+.modalError .exitModal{
+    font-size: 27px;
+    float: right;
+    margin-top: 5px;
+    margin-right: 8px;
+    color: rgb(180, 24, 24);
+    cursor: pointer;
+}
+
+.errorModalContainer{
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+}

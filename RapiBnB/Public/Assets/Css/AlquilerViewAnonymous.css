@@ -1,0 +1,17 @@
+.formOfertarContainer{
+    cursor: not-allowed;
+    filter: grayscale(85%);
+
+}
+
+.formOfertarContainer label{
+    pointer-events: none;
+}
+
+.formOfertarContainer input{
+    pointer-events: none;
+}
+
+.formOfertarContainer button{
+    pointer-events: none;
+}

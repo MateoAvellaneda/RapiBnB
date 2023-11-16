@@ -1,0 +1,120 @@
+.solicitudesSection{
+    display: flex;
+    justify-content: center;
+}
+
+.solicitudesBodyContainer{
+    margin-top: 70px;
+    width: 750px;
+    background-color: rgb(224, 224, 224);
+    border: 1px solid lightgrey;
+}
+
+
+.solicitudesTitle{
+    padding-left: 9px;
+    border-top: 5px solid #99303C;
+    background-color: white;
+    border-bottom: 1px solid black;
+}
+
+
+.solicitudesTableContainer{
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+.tableSolicitudes{
+    margin-top: 18px;
+    width: 100%;
+    overflow: auto;
+}
+
+.tableSolicitudes, .tableSolicitudes th, .tableSolicitudes td{
+    border: 1px solid rgb(114, 114, 114);
+
+}
+
+.tableSolicitudes th, .tableSolicitudes td{
+    overflow: auto;
+    text-wrap: nowrap;
+}
+
+
+
+.btnAceptar{
+    width: 70px;
+    height: 25px;
+    background-color: #2F7799;
+    border: 0px;
+    border-radius: 5px;
+    color:white;
+    cursor: pointer;
+}
+
+.btnAceptar:hover{
+    background-color:#408db1;
+}
+
+.btnRechazar{
+    width: 70px;
+    height: 25px;
+    background-color: #99303C;
+    border: 0px;
+    border-radius: 5px;
+    color:white;
+    cursor: pointer;
+}
+
+.btnRechazar:hover{
+    background-color: #a7515b;
+}
+
+
+.imagenFrenteContainer, .imagenDorsoContainer{
+    width: 80px;
+    height: 80px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+}
+
+
+
+.modalImages{
+    display: none;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    background-color: rgba(0,0,0,0.4);  
+}
+
+.exitModal{
+    background-color: white;
+    border-radius: 6px;
+    padding: 0px 3px;
+    font-size: 28px;
+    cursor: pointer;
+    float: right;
+    margin-right: 12px;
+    margin-top: 10px;
+    color: rgb(173, 15, 15);
+}
+
+.imageContainer{
+    box-sizing: border-box;
+    width: 1000px;
+    height: 600px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 5px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
