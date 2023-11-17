@@ -4,3 +4,5 @@ Es necesario activar el estado del planificador de eventos en la base de datos R
 El valor de la dirección de host es "localhost", el nombre de usuario es "root" y no se requiere contraseña. Para iniciar sesión con el usuario administrador, hay que ir a la sección de inicio de sesión y utilizar "Admin" como nombre de usuario (sin comillas) y "admin123" como contraseña (también sin comillas).
 
 Puede crear una cuenta nueva para la aplicación, o utilizar la siguiente información para una cuenta existente: nombre de usuario: "pepe11111" contraseña: "11111" (sin comillas).
+
+La URL que debe ingresar en el navegador es la siguiente: http://localhost/RapiBnB/Public/
